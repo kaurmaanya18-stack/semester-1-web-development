@@ -1,0 +1,335 @@
+<!DOCTYPE html> 
+ 
+<html lang="en"> 
+ 
+<head> 
+    <meta name="author" content="Maanya Kaur"> 
+    <meta charset="UTF-8"> 
+    <title>NESTED TABLES</title> 
+</head> 
+ 
+<body> 
+ 
+    <h1>NESTED TABLES</h1> 
+    <hr> 
+ 
+    <!-- OUTER TABLE --> 
+    <table border="2" cellpadding="10" cellspacing="10" width="1400"> 
+ 
+        <!-- ROW 1 --> 
+        <tr> 
+ 
+            <!-- TABLE 1 --> 
+            <td valign="top" width="50%"> 
+ 
+                <table border="2" bordercolor="blue" cellpadding="25" cellspacing="5" width="650" height="700"> 
+ 
+                    <caption>1 EMPLOYEE SALARY SLIP</caption> 
+ 
+                    <tr> 
+                        <td bgcolor="skyblue" align="center" valign="middle">Employee ID</td> 
+                        <td align="center" valign="middle">EMP202</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="skyblue" align="center" valign="middle">Employee Name</td> 
+                        <td align="center" valign="middle">Pooja Sharma</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="skyblue" align="center" valign="middle">Department</td> 
+                        <td align="center" valign="middle">Finance</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="skyblue" align="center" valign="middle">Designation</td> 
+                        <td align="center" valign="middle">Accountant</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="skyblue" align="center" valign="middle">Month</td> 
+                        <td align="center" valign="middle">August 2025</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="skyblue" align="center" valign="middle">Salary Details</td> 
+ 
+                        <td align="center" valign="middle"> 
+ 
+                            <table border="2"  height="50%" width="50%"> 
+ 
+                                <tr> 
+                                    <th colspan="2" bgcolor="skyblue" align="center">Earnings</th> 
+                                    <th colspan="2" bgcolor="skyblue" align="center">Deductions</th> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <th bgcolor="skyblue">Items</th> 
+                                    <th bgcolor="skyblue">Amount</th> 
+                                    <th bgcolor="skyblue">Items</th> 
+                                    <th bgcolor="skyblue">Amount</th> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center" nowrap>Basic Pay</td> 
+                                    <td align="center" nowrap>Rupees 28000</td> 
+                                    <td align="center">PF</td> 
+                                    <td align="center" nowrap>Rupees 2000</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center">HRA</td> 
+                                    <td align="center" nowrap>Rupees 7000</td> 
+                                    <td align="center">Tax</td> 
+                                    <td align="center" nowrap>Rupees 1800</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center" nowrap>DA</td> 
+                                    <td align="center" nowrap>Rupees 4000</td> 
+                                    <td align="center" nowrap>Loan</td> 
+                                    <td align="center" nowrap>Rupees 1000</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td bgcolor="skyblue" align="center" nowrap>Total Earnings</td> 
+                                    <td bgcolor="skyblue" align="center" nowrap>Rupees 39000</td> 
+                                    <td bgcolor="skyblue" align="center" nowrap>Total Deductions</td> 
+                                    <td bgcolor="skyblue" align="center" nowrap>Rupees 4800</td> 
+                                </tr> 
+ 
+                            </table> 
+ 
+                        </td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="skyblue" align="center" nowrap>Net Salary</td> 
+                        <td align="center" nowrap>Rupees 34200</td> 
+                    </tr> 
+ 
+                </table> 
+ 
+            </td> 
+ 
+ 
+            <!-- TABLE 2 --> 
+            <td valign="top" width="50%"> 
+ 
+                <table border="2" bordercolor="green" cellpadding="25" cellspacing="5" width="650" height="700"> 
+ 
+                    <caption> 
+                        2 STUDENT PROFILE AND MARKS 
+                    </caption> 
+ 
+                    <tr> 
+                        <td bgcolor="lightgreen" align="center" nowrap>Student Name</td> 
+                        <td align="center" nowrap>Ritika Verma</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="lightgreen" align="center" nowrap>Roll Number</td> 
+                        <td align="center" nowrap>1023</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="lightgreen" align="center">Class</td> 
+                        <td align="center" nowrap>BCA-2nd Year</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="lightgreen" align="center">Details</td> 
+ 
+                        <td align="center" valign="middle"> 
+ 
+                            <table border="2"  height="50%" width="50%"> 
+ 
+                                <tr> 
+                                    <th bgcolor="lightgreen">Subject</th> 
+                                    <th bgcolor="lightgreen">Marks</th> 
+                                    <th bgcolor="lightgreen">Grades</th> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center" nowrap>Computer Networks</td> 
+                                    <td align="center">88</td> 
+                                    <td align="center">A</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center" nowrap>Web Technologies</td> 
+                                    <td align="center">85</td> 
+                                    <td align="center">A</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center" nowrap>Database Management</td> 
+                                    <td align="center">92</td> 
+                                    <td align="center">A+</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center" nowrap>Discrete Mathematics</td> 
+                                    <td align="center">78</td> 
+                                    <td align="center">B+</td> 
+                                </tr> 
+ 
+                            </table> 
+ 
+                        </td> 
+                    </tr> 
+ 
+                </table> 
+ 
+            </td> 
+ 
+        </tr> 
+ 
+ 
+        <!-- ROW 2 --> 
+        <tr> 
+ 
+            <!-- TABLE 3 --> 
+            <td valign="top" width="50%"> 
+ 
+                <table border="2" bordercolor="purple" cellpadding="25" cellspacing="5" width="650" height="700"> 
+ 
+                    <caption> 
+                        3 PRODUCT ORDER SUMMARY 
+                    </caption> 
+ 
+                    <tr> 
+                        <td bgcolor="violet" align="center">Order ID</td> 
+                        <td align="center">ORD4578</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="violet" align="center">Customer Name</td> 
+                        <td align="center">Amanpreet Kaur</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="violet" align="center">Order Date</td> 
+                        <td align="center">12-09-2025</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="violet" align="center">Order Items</td> 
+ 
+                        <td align="center" valign="middle"> 
+ 
+                            <table border="2"  height="50%" width="50%"> 
+ 
+                                <tr> 
+                                    <th bgcolor="violet">Product</th> 
+                                    <th bgcolor="violet">Quantity</th> 
+                                    <th bgcolor="violet" nowrap>Price (in Rupees)</th> 
+                                    <th bgcolor="violet" nowrap>Amount (in Rupees)</th> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center">Laptop</td> 
+                                    <td align="center">1</td> 
+                                    <td align="center">45000</td> 
+                                    <td align="center">45000</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center">Mouse</td> 
+                                    <td align="center">1</td> 
+                                    <td align="center">1200</td> 
+                                    <td align="center">1200</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center">Backpack</td> 
+                                    <td align="center">1</td> 
+                                    <td align="center">2500</td> 
+                                    <td align="center">2500</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td colspan="3" bgcolor="violet" align="center"> 
+                                        Total Amount 
+                                    </td> 
+                                    <td bgcolor="violet" align="center">48700</td> 
+                                </tr> 
+ 
+                            </table> 
+ 
+                        </td> 
+                    </tr> 
+ 
+                </table> 
+ 
+            </td> 
+ 
+ 
+            <!-- TABLE 4 --> 
+            <td valign="top" width="50%"> 
+ 
+                <table border="2" bordercolor="orange" cellpadding="25" cellspacing="5" width="650" height="700"> 
+ 
+                    <caption> 
+                        4 HOTEL BOOKING 
+                    </caption> 
+ 
+                    <tr> 
+                        <td bgcolor="lightsalmon" align="center">Guest Name</td> 
+                        <td align="center">Simran Kaur</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="lightsalmon" align="center">Booking ID</td> 
+                        <td align="center">HBK7890</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="lightsalmon" align="center">Room Type</td> 
+                        <td align="center">Deluxe Room</td> 
+                    </tr> 
+ 
+                    <tr> 
+                        <td bgcolor="lightsalmon" align="center">Booking Details</td> 
+ 
+                        <td align="center" valign="middle"> 
+ 
+                            <table border="2" height="50%" width="50%"> 
+ 
+                                <tr> 
+                                    <th bgcolor="lightsalmon" nowrap>Check-in Date</th> 
+                                    <th bgcolor="lightsalmon" nowrap>Check-out Date</th> 
+                                    <th bgcolor="lightsalmon">Guests</th> 
+                                    <th bgcolor="lightsalmon">Charges</th> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td align="center" nowrap>15-10-2025</td> 
+                                    <td align="center" nowrap>18-10-2025</td> 
+                                    <td align="center">2</td> 
+                                    <td align="center">7500</td> 
+                                </tr> 
+ 
+                                <tr> 
+                                    <td colspan="3" bgcolor="lightsalmon" align="center" nowrap> 
+                                        Total Charges 
+                                    </td> 
+                                    <td bgcolor="lightsalmon" align="center">7500</td> 
+                                </tr> 
+ 
+                            </table> 
+ 
+                        </td> 
+                    </tr> 
+ 
+                </table> 
+ 
+            </td> 
+ 
+        </tr> 
+ 
+    </table> 
+ 
+</body> 
+ 
+</html>
